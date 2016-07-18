@@ -1,6 +1,6 @@
 # A Let's Encrypt client for Go
 
-[![GoDoc](https://godoc.org/github.com/ericchiang/letsencrypt?status.svg)](https://godoc.org/github.com/ericchiang/letsencrypt)
+[![GoDoc](https://godoc.org/github.com/levenlabs/letsencrypt?status.svg)](https://godoc.org/github.com/levenlabs/letsencrypt)
 
 __NOTE:__ If you're thinking about using this package, I would recommend looking at Russ Cox's [letsencrypt package](https://godoc.org/rsc.io/letsencrypt) first.
 
@@ -26,7 +26,7 @@ import (
     "crypto/x509/pkix"
     "log"
 
-    "github.com/ericchiang/letsencrypt"
+    "github.com/levenlabs/letsencrypt"
 )
 
 var supportedChallengs = []string{

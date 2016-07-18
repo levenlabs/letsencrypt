@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ericchiang/letsencrypt/internal/base64"
+	"github.com/levenlabs/letsencrypt/internal/base64"
 	"github.com/square/go-jose"
 )
 
